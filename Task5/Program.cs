@@ -84,5 +84,24 @@ for (int j = 0; j < result3.Length; j++)
 {
     Console.WriteLine($"B[{j}] = {result3[j]}");
 }
+
+
+        int[,] test4 =
+        {
+            { 5, 0, -2, 3, 1 },
+            { 2, 8, 4, -1, 0 },
+            { -3, 6, 7, 2, -4 },
+            { 1, -2, 0, 9, 5 },
+            { 4, 3, -1, 6, 2 }
+        };
+
+        Console.WriteLine("\n4-тест:");
+        int[] result4 = FindColumnMax(test4);
+
+        for (int j = 0; j < result4.Length; j++)
+        {
+            Console.WriteLine($"B[{j}] = {result4[j]}");
+        }
+
     }
 }

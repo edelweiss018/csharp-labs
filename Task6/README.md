@@ -46,9 +46,59 @@ C# тілінде жолдармен жұмыс істеуді үйрену. Б�
 
 **Шешімі:** Алдымен `dotnet run` командасы арқылы бағдарламаны іске қосып, мәтінді экранда «Жолды енгізіңіз:» деген сұрау шыққаннан кейін енгіздім.
 
+## Қатені түзету
+
+Қатені түзеткен Commit хэші: `0956a1f`
+
+Түзету: кездейсоқ сандар генераторының seed мәніне қатысты қате түзетілді.
+
 ### 7. Жасанды интеллектіні қолдану
 
+### Git тарихы
+
+```text
+* ab320f7 (HEAD -> main, origin/main, origin/HEAD) Fix root README Markdown formatting
+*   dedc1b5 Merge pull request #3 from edelweiss018/task5-fix
+...
+```
+### Git туралы сұрақтар мен жауаптар
+
+**1. Git дегеніміз не?**
+
+Git — бағдарламалық жобадағы өзгерістерді бақылауға және код нұсқаларын сақтауға арналған нұсқаларды басқару жүйесі.
+
+**2. Commit дегеніміз не?**
+
+Commit — жобаға енгізілген өзгерістердің сақталған нұсқасы. Әр commit-тің жеке хэші болады.
+
+**3. Branch дегеніміз не?**
+
+Branch — жобаның негізгі нұсқасына әсер етпей, жеке бағытта жұмыс істеуге мүмкіндік беретін тармақ.
+
+
 Зертханалық жұмысты орындау барысында ChatGPT қолданылды. Бағдарлама құрылымын түсіну, кодты түсіндіру және README файлын дайындау бойынша көмек алынды. Код бағдарламаны өзім іске қосып, тестілеу арқылы тексерілді.
+
+
+* ab320f7 (HEAD -> main, origin/main, origin/HEAD) Fix root README Markdown formatting
+*   dedc1b5 Merge pull request #3 from edelweiss018/task5-fix
+|\  
+| * e30681d (origin/task5-fix, task5-fix) Update main README with student information
+| * 318ddfa Update Task5 README and screenshots
+| * 0956a1f Fix Task5 random seed and add tests
+|/  
+*   5c3e70b Merge pull request #2 from edelweiss018/task6
+|\  
+| * 538a6f5 (origin/task6, task6) Task6: бағдарлама скриншоты қосылды
+| * d25fdba Task6: README файлы қосылды
+| * 6145f83 Task6: сөздерді санау бағдарламасы жасалды
+| * 20ba735 Task6: сөздерді санау әдісі қосылды
+|/  
+*   a88e218 Merge pull request #1 from edelweiss018/task5
+|\  
+| * 6d89dc6 (origin/task5, task5) Add Task5 execution screenshot
+| * 4a9d96b Update Task5 documentation
+| * 523d1dc Rename Task5 project file
+
 
 ### 8. Қорытынды
 
